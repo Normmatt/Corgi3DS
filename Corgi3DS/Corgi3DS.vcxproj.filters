@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\sdl">
+      <UniqueIdentifier>{c2e01254-a62a-430f-be45-eb41b7cff280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{fec040e3-24e8-400f-bfc5-69076d403596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\arm9">
+      <UniqueIdentifier>{6b2c65b3-8313-4754-8e7e-df8e4ba2fb24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\arm11">
+      <UniqueIdentifier>{77184d2d-49b1-4a9e-ae28-da9b78490330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\common">
+      <UniqueIdentifier>{05096f52-48d3-42ab-9651-aa5a6538d554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\cpu">
+      <UniqueIdentifier>{d5808db0-d049-41cc-abc3-e1d561bf56d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\polarssl">
+      <UniqueIdentifier>{1a7c7991-48b7-413f-86d0-b94c1da91c58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\core\arm9\aes_lib.c">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\arm9\dma9.cpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\arm9\emmc.cpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\arm9\interrupt9.cpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\arm11\gpu.cpp">
+      <Filter>Source Files\core\arm11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\arm11\mpcore_pmr.cpp">
+      <Filter>Source Files\core\arm11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\common\bswp.cpp">
+      <Filter>Source Files\core\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\common\exceptions.cpp">
+      <Filter>Source Files\core\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\common\rotr.cpp">
+      <Filter>Source Files\core\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\cpu\arm.cpp">
+      <Filter>Source Files\core\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\cpu\arm_disasm.cpp">
+      <Filter>Source Files\core\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\cpu\arm_interpret.cpp">
+      <Filter>Source Files\core\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\cpu\cp15.cpp">
+      <Filter>Source Files\core\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\cpu\thumb_disasm.cpp">
+      <Filter>Source Files\core\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\cpu\thumb_interpret.cpp">
+      <Filter>Source Files\core\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sdl\main.cpp">
+      <Filter>Source Files\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\emulator.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\i2c.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\pxi.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\timers.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sdl\emuwindow.cpp">
+      <Filter>Source Files\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\arm9\rsa9.cpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\polarssl\aes.c">
+      <Filter>Source Files\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\polarssl\bignum.c">
+      <Filter>Source Files\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\polarssl\rsa.c">
+      <Filter>Source Files\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\polarssl\sha1.c">
+      <Filter>Source Files\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\polarssl\sha2.c">
+      <Filter>Source Files\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\arm9\aes9.cpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core\arm9\sha9.cpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\core\arm9\aes_lib.h">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\arm9\aes_lib.hpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\arm9\dma9.hpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\arm9\emmc.hpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\arm9\interrupt9.hpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\arm11\gpu.hpp">
+      <Filter>Source Files\core\arm11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\arm11\mpcore_pmr.hpp">
+      <Filter>Source Files\core\arm11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\common\bswp.hpp">
+      <Filter>Source Files\core\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\common\common.hpp">
+      <Filter>Source Files\core\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\common\exceptions.hpp">
+      <Filter>Source Files\core\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\common\rotr.hpp">
+      <Filter>Source Files\core\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\cpu\arm.hpp">
+      <Filter>Source Files\core\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\cpu\arm_disasm.hpp">
+      <Filter>Source Files\core\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\cpu\arm_interpret.hpp">
+      <Filter>Source Files\core\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\cpu\cp15.hpp">
+      <Filter>Source Files\core\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\emulator.hpp">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\i2c.hpp">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\pxi.hpp">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\timers.hpp">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdl\emuwindow.hpp">
+      <Filter>Source Files\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\arm9\rsa9.hpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\polarssl\aes.h">
+      <Filter>Source Files\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\polarssl\bignum.h">
+      <Filter>Source Files\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\polarssl\bn_mul.h">
+      <Filter>Source Files\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\polarssl\config.h">
+      <Filter>Source Files\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\polarssl\padlock.h">
+      <Filter>Source Files\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\polarssl\rsa.h">
+      <Filter>Source Files\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\polarssl\sha1.h">
+      <Filter>Source Files\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\polarssl\sha2.h">
+      <Filter>Source Files\polarssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\arm9\aes9.hpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core\arm9\sha9.hpp">
+      <Filter>Source Files\core\arm9</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

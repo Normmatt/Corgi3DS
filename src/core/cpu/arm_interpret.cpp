@@ -406,7 +406,7 @@ void arm_signed_halfword_multiply(ARM_CPU &cpu, uint32_t instr)
             {
                 int64_t big_product = product * (int32_t)cpu.get_register(second_operand);
                 big_product /= 0x10000;
-                result = big_product + cpu.get_register(accumulate);
+                result = (uint32_t)big_product + cpu.get_register(accumulate);
 
                 if (ADD_OVERFLOW(big_product, cpu.get_register(accumulate), result))
                     cpu.get_CPSR()->q_overflow = true;
@@ -415,7 +415,7 @@ void arm_signed_halfword_multiply(ARM_CPU &cpu, uint32_t instr)
             {
                 int64_t big_product = product * (int32_t)cpu.get_register(second_operand);
                 big_product /= 0x10000;
-                result = big_product;
+                result = (uint32_t)big_product;
             }
             break;
         case 0xB:

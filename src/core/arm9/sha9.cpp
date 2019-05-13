@@ -177,7 +177,7 @@ void SHA::do_sha256(bool final_round)
 {
     if (final_round)
     {
-        int round_size = in_fifo.size();
+        size_t round_size = in_fifo.size();
         for (int i = 0; i < round_size; i++)
         {
             messages[i] = bswp32(in_fifo.front());
@@ -235,7 +235,7 @@ void SHA::do_sha1(bool final_round)
 {
     if (final_round)
     {
-        int round_size = in_fifo.size();
+        size_t round_size = in_fifo.size();
         for (int i = 0; i < round_size; i++)
         {
             messages[i] = bswp32(in_fifo.front());

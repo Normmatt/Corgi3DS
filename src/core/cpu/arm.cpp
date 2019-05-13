@@ -962,7 +962,7 @@ uint32_t ARM_CPU::rotr32(uint32_t n, unsigned int c, bool alter_flags)
     }
     c &= mask;
 
-    uint32_t result = (n>>c) | (n<<( (-c)&mask ));
+    uint32_t result = (n>>c) | (n<<( (-(int)c)&mask ));
 
     if (alter_flags)
     {
